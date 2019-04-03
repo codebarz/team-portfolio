@@ -87,6 +87,14 @@ ul.mainMenu, ul.mainLogo {
     width: 75%;
     height: 100%;
     float: left;
+    padding: 70px 10px 10px 10px;
+}
+.sideContent h3 {
+    font-weight: bold;
+}
+.sideContent p {
+    font-weight: 14px;
+    padding: 10px 30px 10px 0;
 }
 @media only screen and (min-width: 160px) and (max-width: 600px) {
     .mainHeader {
