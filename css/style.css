@@ -3,6 +3,7 @@
 */
 html, body{
     color:  rgb(39, 47, 67);
+    height: 100%;
 }
 
 .siteTitle{
@@ -76,6 +77,17 @@ html, body{
 ul.mainMenu, ul.mainLogo {
     margin: 0 !important;
 }
+.sideBar {
+    width: 25%;
+    height: 100%;
+    float: left;
+    border-right: 1px solid #f0f0f0;
+}
+.sideContent {
+    width: 75%;
+    height: 100%;
+    float: left;
+}
 @media only screen and (min-width: 160px) and (max-width: 600px) {
     .mainHeader {
         height: 100px;
@@ -104,15 +116,11 @@ ul.mainMenu, ul.mainLogo {
     .mainHeader ul.mainMenu li a {
         padding: 10px 0;
     }
-
-
-.siteTitle{
-    margin: 20px;
-}
-
-.siteTitle h1 {
-    font-size: 60px;
-    font-family: 'Baloo Bhaijaan', cursive;
-  }
-
+    .siteTitle{
+        margin: 20px;
+    }
+    .siteTitle h1 {
+        font-size: 60px;
+        font-family: 'Baloo Bhaijaan', cursive;
+    }
 }
