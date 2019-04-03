@@ -31,3 +31,40 @@
 .mainHeader ul.mainMenu li:first-child {
     margin-left: 50px;
 }
+.mainHeader ul.mainMenu li a {
+    text-decoration: none;
+    color: #000;
+    padding: 25px 0;
+}
+.mainHeader ul.mainMenu li a:hover {
+    border-bottom: 1px solid #000;
+}
+@media only screen and (min-width: 160px) and (max-width: 600px) {
+    .mainHeader {
+        height: 100px;
+    }
+    .mainHeader ul {
+        clear: both;
+        text-align: center;
+    }
+    .mainHeader ul.mainLogo li {
+        margin: 0 auto;
+        width: 100%;
+        font-size: 7vw;
+    }
+    .mainHeader ul.mainMenu li {
+        font-size: 14px;
+    }
+    .mainHeader ul.mainMenu li:first-child {
+        margin-left: 0;
+    }
+    .mainHeader ul.mainMenu {
+        text-align: center;
+    }
+    .mainHeader ul li {
+        line-height: 50px;
+    }
+    .mainHeader ul.mainMenu li a {
+        padding: 10px 0;
+    }
+}
