@@ -1,8 +1,7 @@
 /**
 *  Team portfolio 
 */
-
-html body{
+html, body{
     color:  rgb(39, 47, 67);
 }
 
@@ -18,16 +17,16 @@ html body{
 
 .siteTitle h1 {
     font-size: 110px;
-    font-family: "Myriad Pro";
+    font-family: 'Baloo Bhaijaan', cursive;
     color: rgb(39, 47, 67);
-    font-weight: bold;
+    /* font-weight: bold; */
     /* line-height: 0.5; */
     text-shadow: 0px 9px 9.7px rgba(0, 0, 0, 0.33);
     /* position: absolute; */
     left: 496.844px;
     top: 19px;
     z-index: 33;
-  }
+}
   
 /* footer styling */
 .unique-color-dark{
@@ -74,6 +73,9 @@ html body{
 .mainHeader ul.mainMenu li a:hover {
     border-bottom: 1px solid #000;
 }
+ul.mainMenu, ul.mainLogo {
+    margin: 0 !important;
+}
 @media only screen and (min-width: 160px) and (max-width: 600px) {
     .mainHeader {
         height: 100px;
@@ -109,16 +111,8 @@ html body{
 }
 
 .siteTitle h1 {
-    font-size: 80px;
-    font-family: "Myriad Pro";
-    color: rgb(39, 47, 67);
-    font-weight: bold;
-    /* line-height: 0.5; */
-    text-shadow: 0px 9px 9.7px rgba(0, 0, 0, 0.33);
-    /* position: absolute; */
-    left: 496.844px;
-    top: 19px;
-    z-index: 33;
+    font-size: 60px;
+    font-family: 'Baloo Bhaijaan', cursive;
   }
 
 }
