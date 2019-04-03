@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.mainHeader {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    display: inline-block;
+    border-bottom: 1px solid #f1f1f1;
+}
+.mainHeader ul {
+    display: block;
+}
+.mainHeader ul li {
+    display: inline-block;
+    line-height: 70px;
+}
+.mainHeader ul.mainLogo li {
+    font-weight: bold;
+    font-size: 3vw;
+    font-family: 'Baloo Bhaijaan', cursive;
+    float: left;
+    margin-left: 100px;
+}
+.mainHeader ul.mainMenu li {
+    padding: 0 15px;
+    float: left;
+}
+.mainHeader ul.mainMenu li:first-child {
+    margin-left: 50px;
+}
+.mainHeader ul.mainMenu li a {
+    text-decoration: none;
+    color: #000;
+    padding: 25px 0;
+}
+.mainHeader ul.mainMenu li a:hover {
+    border-bottom: 1px solid #000;
+}
+@media only screen and (min-width: 160px) and (max-width: 600px) {
+    .mainHeader {
+        height: 100px;
+    }
+    .mainHeader ul {
+        clear: both;
+        text-align: center;
+    }
+    .mainHeader ul.mainLogo li {
+        margin: 0 auto;
+        width: 100%;
+        font-size: 7vw;
+    }
+    .mainHeader ul.mainMenu li {
+        font-size: 14px;
+    }
+    .mainHeader ul.mainMenu li:first-child {
+        margin-left: 0;
+    }
+    .mainHeader ul.mainMenu {
+        text-align: center;
+    }
+    .mainHeader ul li {
+        line-height: 50px;
+    }
+    .mainHeader ul.mainMenu li a {
+        padding: 10px 0;
+    }
+}
