@@ -93,8 +93,14 @@ ul.mainMenu, ul.mainLogo {
     font-weight: bold;
 }
 .sideContent p {
-    font-weight: 14px;
+    font-size: 14px;
     padding: 10px 30px 10px 0;
+}
+.sideContent p.bulletDetails {
+    color: #333;
+}
+.sideContent h1 {
+    font-family: 'Baloo Bhaijaan', cursive;
 }
 @media only screen and (min-width: 160px) and (max-width: 600px) {
     .mainHeader {
