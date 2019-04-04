@@ -216,3 +216,11 @@ ul.mainMenu, ul.mainLogo {
 .actual-portfolio{
     margin-left: 10%;
 }
+
+#rukee_image{
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+}
