@@ -116,3 +116,18 @@ ul.mainMenu, ul.mainLogo {
   }
 
 }
+
+.container-for-profile{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.profile-details{
+    background-color: #f1f1f1;
+    padding: 10px 10px 10px 40px;
+    height: 90vh;
+}
+
+.actual-portfolio{
+    margin-left: 20%;
+}
