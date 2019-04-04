@@ -117,6 +117,7 @@ ul.mainMenu, ul.mainLogo {
 
 }
 
+/* the following css styles...handle Rukee's Portfolio page */
 .container-for-profile{
     display: grid;
     grid-template-columns: 30% 70%;
