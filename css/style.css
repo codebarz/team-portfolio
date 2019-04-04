@@ -102,6 +102,14 @@ ul.mainMenu, ul.mainLogo {
 .sideContent h1 {
     font-family: 'Baloo Bhaijaan', cursive;
 }
+.imgContainer {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 4px #cccccc;
+    -moz-box-shadow: 0 0 4px #cccccc;
+    box-shadow: 0 0 4px #cccccc;
+}
 @media only screen and (min-width: 160px) and (max-width: 600px) {
     .mainHeader {
         height: 100px;
