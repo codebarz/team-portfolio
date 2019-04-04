@@ -1,0 +1,228 @@
+/**
+*  Team portfolio 
+*/
+html, body{
+    color:  rgb(39, 47, 67);
+    height: 100%;
+}
+
+.siteTitle{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.0em;
+    font-weight: 100;
+}
+
+.siteTitle{
+    margin: 100px;
+}
+
+.siteTitle h1 {
+    font-size: 110px;
+    font-family: 'Baloo Bhaijaan', cursive;
+    color: rgb(39, 47, 67);
+    /* font-weight: bold; */
+    /* line-height: 0.5; */
+    text-shadow: 0px 9px 9.7px rgba(0, 0, 0, 0.33);
+    /* position: absolute; */
+    left: 496.844px;
+    top: 19px;
+    z-index: 33;
+}
+
+#active {
+    background: gainsboro;
+}
+
+
+/* circle profile image style */
+.profile_left{
+    width: 90px;
+    height: 90px;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 100px;
+    border-radius: 50%;
+    margin: 90px;
+
+}
+.text{
+    font-size: 14px;
+}
+.img{
+    background-image: url("../images/ibrahimjoseph.png");
+}
+/* name font and size */
+.nameFoont{
+    font-family: 'Baloo Bhaijaan', cursive;
+    font-size: 2.5em;
+}
+ul.bioData >li{
+    list-style: none;
+}
+.profile_right{
+    width: 800px;
+    height: 100%;
+    float: left;
+    margin: 90px;
+    border-left: solid gainsboro 1px;
+    padding-left: 20px;
+}
+/* clear fix after float */
+.clear{
+    clear: both;
+}
+
+/* footer styling */
+.unique-color-dark{
+    background-color: #f1f1f1 !important;
+ }
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.mainHeader {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    display: inline-block;
+    border-bottom: 1px solid #f1f1f1;
+}
+.mainHeader ul {
+    display: block;
+}
+.mainHeader ul li {
+    display: inline-block;
+    line-height: 70px;
+}
+.mainHeader ul.mainLogo li {
+    font-weight: bold;
+    font-size: 3vw;
+    font-family: 'Baloo Bhaijaan', cursive;
+    float: left;
+    margin-left: 100px;
+}
+.mainHeader ul.mainMenu li {
+    padding: 0 15px;
+    float: left;
+}
+.mainHeader ul.mainMenu li:first-child {
+    margin-left: 50px;
+}
+.mainHeader ul.mainMenu li a {
+    text-decoration: none;
+    color:  rgb(39, 47, 67);
+    padding: 25px 0;
+}
+.mainHeader ul.mainMenu li a:hover {
+    border-bottom: 1px solid #000;
+}
+ul.mainMenu, ul.mainLogo {
+    margin: 0 !important;
+}
+.sideBar {
+    width: 25%;
+    height: 100%;
+    float: left;
+    border-right: 1px solid #f0f0f0;
+    position: relative;
+}
+.sideContent {
+    width: 75%;
+    height: 100%;
+    float: left;
+    padding: 70px 10px 10px 10px;
+}
+.sideContent h3 {
+    font-weight: bold;
+}
+.sideContent p {
+    font-size: 14px;
+    padding: 10px 30px 10px 0;
+}
+.sideContent p.bulletDetails {
+    color: #333;
+}
+.sideContent h1 {
+    font-family: 'Baloo Bhaijaan', cursive;
+}
+.imgContainer {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    -webkit-box-shadow: 0 0 4px #cccccc;
+    -moz-box-shadow: 0 0 4px #cccccc;
+    box-shadow: 0 0 4px #cccccc;
+    position: absolute;
+    top: 20%;
+    left: 32.5%;
+}
+.imgContainer img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+@media only screen and (min-width: 160px) and (max-width: 600px) {
+    .mainHeader {
+        height: 100px;
+    }
+    .mainHeader ul {
+        clear: both;
+        text-align: center;
+    }
+    .mainHeader ul.mainLogo li {
+        margin: 0 auto;
+        width: 100%;
+        font-size: 7vw;
+    }
+    .mainHeader ul.mainMenu li {
+        font-size: 14px;
+    }
+    .mainHeader ul.mainMenu li:first-child {
+        margin-left: 0;
+    }
+    .mainHeader ul.mainMenu {
+        text-align: center;
+    }
+    .mainHeader ul li {
+        line-height: 50px;
+    }
+    .mainHeader ul.mainMenu li a {
+        padding: 10px 0;
+    }
+    .siteTitle{
+        margin: 20px;
+    }
+    .siteTitle h1 {
+        font-size: 60px;
+        font-family: 'Baloo Bhaijaan', cursive;
+    }
+}
+
+/* the following css styles...handle Rukee's Portfolio page */
+.container-for-profile{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.profile-details{
+    padding: 10px 10px 10px 40px;
+    height: 90vh;
+}
+
+.actual-portfolio{
+    margin-left: 15%;
+    border-left: solid gainsboro 1px;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+#rukee_image{
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+}
