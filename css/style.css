@@ -27,7 +27,49 @@ html, body{
     top: 19px;
     z-index: 33;
 }
-  
+
+#active {
+    background: gainsboro;
+}
+
+
+/* circle profile image style */
+.profile_left{
+    width: 150px;
+    height: 100%;
+    float: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 120px;
+    border-radius: 50%;
+    margin: 90px;
+
+}
+.img{
+    background-image: url("../images/ibrahimjoseph.png");
+}
+/* name font and size */
+.nameFoont{
+    font-family: 'Baloo Bhaijaan', cursive;
+    font-size: 2.5em;
+}
+ul.bioData >li{
+    list-style: none;
+}
+.profile_right{
+    width: 800px;
+    height: 100%;
+    float: left;
+    margin: 90px;
+    border-left: solid gainsboro 1px;
+    padding-left: 20px;
+}
+/* clear fix after float */
+.clear{
+    clear: both;
+}
+
 /* footer styling */
 .unique-color-dark{
     background-color: #f1f1f1 !important;
