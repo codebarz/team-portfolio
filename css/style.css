@@ -200,3 +200,29 @@ ul.mainMenu, ul.mainLogo {
         font-family: 'Baloo Bhaijaan', cursive;
     }
 }
+
+/* the following css styles...handle Rukee's Portfolio page */
+.container-for-profile{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.profile-details{
+    padding: 10px 10px 10px 40px;
+    height: 90vh;
+}
+
+.actual-portfolio{
+    margin-left: 15%;
+    border-left: solid gainsboro 1px;
+    padding-left: 20px;
+    padding-top: 50px;
+}
+
+#rukee_image{
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; 
+}
